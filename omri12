@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Template Sederhana</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    p {
+      color: #666;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      background-color: #333;
+      overflow: hidden;
+    }
+
+    nav li {
+      float: left;
+    }
+
+    nav li a {
+      display: block;
+      color: #fff;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    nav li a:hover {
+      background-color: #555;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#journey">Journey Map</a></li>
+      <li><a href="#psych">Psych Analysis</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <section id="home">
+      <h1>Selamat Datang di Halaman Utama</h1>
+      <p>Ini adalah halaman utama website kami.</p>
+    </section>
+
+    <section id="journey">
+      <h1>Journey Map</h1>
+      <p>Ini adalah halaman Journey Map.</p>
+    </section>
+
+    <section id="psych">
+      <h1>Psych Analysis</h1>
+      <p>Ini adalah halaman Psych Analysis.</p>
+    </section>
+  </div>
+</body>
+</html>
