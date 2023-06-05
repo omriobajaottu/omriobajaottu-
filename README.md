@@ -1,0 +1,2 @@
+# omriobajaottu-
+tugas imk
